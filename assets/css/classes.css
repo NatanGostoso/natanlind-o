@@ -1,0 +1,101 @@
+.footer {
+  background-color: var(--main-bg-color);
+  text-align: center;
+  padding: 1em 0;
+}
+
+.footer p a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+.section {
+  padding: 3em 1em;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.recipe-section {
+  background-color: #fffacd;
+  padding: 2em 1em;
+}
+
+.recipe-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.recipe-card {
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.recipe-card h3 {
+  margin-top: 0;
+}
+
+.recipe-card img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.contact-form fieldset {
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  padding: 1em;
+  margin-bottom: 1em;
+}
+
+.contact-form legend {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.contact-form .form-group label {
+  color: var(--text-color);
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.contact-form .form-group input,
+.contact-form .form-group textarea {
+  width: 100%;
+  border: 1px solid var(--primary-color);
+  border-radius: var(--border-radius);
+  padding: 0.5em;
+  margin-bottom: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.back-to-top {
+  display: none; /* Hidden by default */
+  padding: 0.5em 1em;
+  background-color: var(--button-bg-color);
+  color: var(--secondary-color);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.back-to-top.show {
+  display: inline-block; /* Show when the class 'show' is added */
+}
+
+.back-to-top:hover {
+  background-color: var(--button-hover-color);
+}

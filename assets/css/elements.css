@@ -1,0 +1,35 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: linear-gradient(135deg, #ff7e5f 0%, #feb47b 100%);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+button {
+  background-color: var(--button-bg-color);
+  color: var(--secondary-color);
+  border: none;
+  padding: 0.75em 1.5em;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--button-hover-color);
+}
